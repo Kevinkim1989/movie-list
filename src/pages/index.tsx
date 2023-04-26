@@ -41,7 +41,7 @@ export default function Home() {
           {movies ? (
             movies.map((movie: Movie) => 
               <li>
-                <a href="#">
+                <a href="#" key={movie.id}>
                   {movie.title}
                 </a>
               </li>
