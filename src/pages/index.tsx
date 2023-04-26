@@ -40,8 +40,8 @@ export default function Home() {
         <ul className="">
           {movies ? (
             movies.map((movie: Movie) => 
-              <li>
-                <a href="#" key={movie.id}>
+              <li key={movie.id}>
+                <a href="#">
                   {movie.title}
                 </a>
               </li>
